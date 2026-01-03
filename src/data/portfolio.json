@@ -227,11 +227,11 @@
         ]
     },
     "illustrations": {
-        "animated": true,
-        "splash_screen": "/lottie/splashAnimation.json",
-        "greeting": "/lottie/landingPerson.json",
-        "skills": "/lottie/codingPerson.json",
-        "skill_progress": "/lottie/build.json",
-        "contact": "/lottie/email.json"
+        "animated": false,
+        "splash_screen": "/images/manOnTable.svg",
+        "greeting": "/images/manOnTable.svg",
+        "skills": "/images/developerActivity.svg",
+        "skill_progress": "/images/skill.svg",
+        "contact": "/images/contactMailDark.svg"
     }
 }

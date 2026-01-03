@@ -1,12 +1,9 @@
 import React, { useContext } from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { illustration, skillsSection, illustrations } from "../../portfolio";
+import { skillsSection, illustrations } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
-import developerActivity from "../../assets/images/developerActivity.svg";
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
@@ -18,14 +15,10 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={illustrations.skills} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={developerActivity}
-              ></img>
-            )}
+            <img
+              alt="Man Working"
+              src={illustrations.skills}
+            ></img>
           </div>
         </Fade>
         <Fade right duration={1000}>

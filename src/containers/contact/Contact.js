@@ -1,12 +1,9 @@
 import React, { useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { illustration, contactInfo, illustrations } from "../../portfolio";
+import { contactInfo, illustrations } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
-import contactMailDark from "../../assets/images/contactMailDark.svg";
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
@@ -54,14 +51,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={illustrations.contact} />
-            ) : (
-              <img
-                alt="Man working"
-                src={contactMailDark}
-              ></img>
-            )}
+            <img
+              alt="Man working"
+              src={illustrations.contact}
+            ></img>
           </div>
         </div>
       </div>

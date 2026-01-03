@@ -2,13 +2,11 @@ import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import { illustration, greeting, illustrations } from "../../portfolio";
+import { greeting, illustrations } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
-import manOnTable from "../../assets/images/manOnTable.svg";
 // import resume link if needed, but for now user has resumeLink empty in portfolio.js
 
 export default function Greeting() {
@@ -55,14 +53,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={illustrations.greeting} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={manOnTable}
-              ></img>
-            )}
+            <img
+              alt="man sitting on table"
+              src={illustrations.greeting}
+            ></img>
           </div>
         </div>
       </div>

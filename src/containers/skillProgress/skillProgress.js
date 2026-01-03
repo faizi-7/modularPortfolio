@@ -1,10 +1,7 @@
 import React from "react";
 import "./Progress.scss";
-import { illustration, techStack, illustrations } from "../../portfolio";
+import { techStack, illustrations } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-
-import skill from "../../assets/images/skill.svg";
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
@@ -29,14 +26,10 @@ export default function StackProgress() {
           </div>
 
           <div className="skills-image">
-            {illustration.animated ? (
-              <DisplayLottie animationData={illustrations.skill_progress} />
-            ) : (
-              <img
-                alt="Skills"
-                src={skill}
-              />
-            )}
+            <img
+              alt="Skills"
+              src={illustrations.skill_progress}
+            />
           </div>
         </div>
       </Fade>
