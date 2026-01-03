@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { illustration, contactInfo } from "../../portfolio";
+import { illustration, contactInfo, illustrations } from "../../portfolio";
 import { Fade } from "react-reveal";
-import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -56,7 +55,7 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={email} />
+              <DisplayLottie animationData={illustrations.contact} />
             ) : (
               <img
                 alt="Man working"

@@ -20,6 +20,7 @@
             "start_date": "2024-07-15",
             "end_date": "Present",
             "location": "Aurangabad, India",
+            "logo_path": "/images/siemensLogo.png",
             "responsibilities": [
                 "Manage and deliver 7+ high-voltage substation tenders per month ensuring technical and commercial compliance",
                 "Prepare proposals valued between USD 2M to USD 35M tailored to diverse client requirements",
@@ -32,6 +33,7 @@
             "start_date": "2023-07-03",
             "end_date": "2023-08-04",
             "location": "Aurangabad, India",
+            "logo_path": "/images/siemensLogo.png",
             "responsibilities": [
                 "Developed HMI for Gas Insulated Switchgear project",
                 "Enhanced skills in UI design and PLC programming",
@@ -45,6 +47,7 @@
             "start_date": "2023-06-01",
             "end_date": "2023-07-01",
             "location": "Haridwar, India",
+            "logo_path": "/images/C&SElectricLogo.png",
             "responsibilities": [
                 "Managed MCB plant operations",
                 "Worked on spot welding and injection molding",
@@ -58,6 +61,7 @@
             "start_date": "2022-06-06",
             "end_date": "2022-08-08",
             "location": "Gurugram, India",
+            "logo_path": "/images/siemensLogo.png",
             "responsibilities": [
                 "Worked on Delhi Metro Rail Corporation signaling projects",
                 "Trained on ATP, ATO, ATC, Interlocking, and Train Control Management systems"
@@ -69,6 +73,7 @@
             "start_date": "2022-08-16",
             "end_date": "2023-05-15",
             "location": "Remote, India",
+            "logo_path": "/images/iHubDivyaLogo.png",
             "responsibilities": [
                 "Selected for a 10-month fellowship by Government of India and IIT Roorkee",
                 "Built an IoT-based smart irrigation system",
@@ -81,6 +86,7 @@
             "start_date": "2022-04-04",
             "end_date": "2023-01-06",
             "location": "Hybrid, India",
+            "logo_path": "/images/siemensLogo.png",
             "responsibilities": [
                 "Completed basic and advanced training in PLC, CNC, and electronics",
                 "Hands-on experience with FESTO, DIGIKIT, and TIA Portal V16",
@@ -97,7 +103,8 @@
             "end_date": "2024-06-30",
             "location": "New Delhi, India",
             "final_grade": "3.78",
-            "eqf_level": 6
+            "eqf_level": 6,
+            "logo_path": "/images/placeholder.png"
         }
     ],
     "languages": {
@@ -117,22 +124,26 @@
         {
             "title": "Siemens Scholar",
             "organization": "Siemens",
-            "description": "Selected among 200 students across India in a dual-education model program"
+            "description": "Selected among 200 students across India in a dual-education model program",
+            "logo_path": "/images/certification.png"
         },
         {
             "title": "Aspire Leaders Program Finalist",
             "organization": "Aspire Institute / HarvardX",
-            "description": "Finalist in a global academic leadership program with participants from 150+ countries"
+            "description": "Finalist in a global academic leadership program with participants from 150+ countries",
+            "logo_path": "/images/certification.png"
         },
         {
             "title": "Schneider Global Student Experience",
             "organization": "Schneider Electric",
-            "year": 2023
+            "year": 2023,
+            "logo_path": "/images/certification.png"
         },
         {
             "title": "Student Energy Summit Selection",
             "organization": "Student Energy",
-            "description": "Selected for the Student Energy Summit, Abu Dhabi 2023 (unable to attend due to exams)"
+            "description": "Selected for the Student Energy Summit, Abu Dhabi 2023 (unable to attend due to exams)",
+            "logo_path": "/images/certification.png"
         }
     ],
     "projects": [
@@ -144,7 +155,8 @@
                 "Simulated the system using Simulink under various vibration conditions",
                 "Demonstrated feasibility for scalable urban renewable energy solutions",
                 "Proposed future integration with machine learning, smart grids, and wearable electronics"
-            ]
+            ],
+            "image_path": "/images/placeholder.png"
         },
         {
             "name": "PLC Simulated Smart Room Control",
@@ -154,14 +166,16 @@
                 "Used TON, TP timers, and SR flip-flop logic",
                 "Performed cost analysis showing significant energy savings",
                 "Focused on energy efficiency and sustainability"
-            ]
+            ],
+            "image_path": "/images/placeholder.png"
         },
         {
             "name": "Developer Portfolio",
             "description": [
                 "Software Developer Portfolio Template built with React.js that helps you showcase your work and skills as a software developer.",
                 "This repo was created to help people who want to skip the design phase of their portfolio and focus on the code and projects."
-            ]
+            ],
+            "image_path": "/images/placeholder.png"
         }
     ],
     "volunteering": [
@@ -211,5 +225,13 @@
             "Stakeholder Communication",
             "Bid and Proposal Management"
         ]
+    },
+    "illustrations": {
+        "animated": true,
+        "splash_screen": "/lottie/splashAnimation.json",
+        "greeting": "/lottie/landingPerson.json",
+        "skills": "/lottie/codingPerson.json",
+        "skill_progress": "/lottie/build.json",
+        "contact": "/lottie/email.json"
     }
 }

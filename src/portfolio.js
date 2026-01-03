@@ -1,19 +1,12 @@
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
 import portfolioData from "./data/portfolio.json";
 
-// Import images/assets
-import siemensLogo from "./assets/images/siemensLogo.png";
-import csElectricLogo from "./assets/images/C&SElectricLogo.png";
-import iHubLogo from "./assets/images/iHubDivyaLogo.png";
-import projectPlaceholder from "./assets/images/projectPlaceholder.png";
-import certification from "./assets/images/certification.png";
+const illustrations = portfolioData.illustrations;
 
 // Splash Screen
 const splashScreen = {
   enabled: true,
-  animation: splashAnimation,
+  animation: illustrations.splash_screen,
   duration: 2000
 };
 
@@ -93,7 +86,7 @@ const educationInfo = {
   display: true,
   schools: portfolioData.education.map(edu => ({
     schoolName: edu.institution,
-    logo: projectPlaceholder, // Placeholder logo
+    logo: edu.logo_path,
     subHeader: edu.degree,
     duration: `${edu.start_date} - ${edu.end_date}`,
     desc: `Grade: ${edu.final_grade}`,
@@ -124,21 +117,14 @@ const techStack = {
 // Work experience section
 const workExperiences = {
   display: true,
-  experience: portfolioData.work_experience.map(exp => {
-    let logo = projectPlaceholder;
-    if (exp.organization.includes("Siemens")) logo = siemensLogo;
-    else if (exp.organization.includes("C&S")) logo = csElectricLogo;
-    else if (exp.organization.includes("iHub")) logo = iHubLogo;
-
-    return {
-      role: exp.role,
-      company: exp.organization,
-      companylogo: logo,
-      date: `${exp.start_date} - ${exp.end_date}`,
-      desc: exp.location,
-      descBullets: exp.responsibilities
-    };
-  })
+  experience: portfolioData.work_experience.map(exp => ({
+    role: exp.role,
+    company: exp.organization,
+    companylogo: exp.logo_path,
+    date: `${exp.start_date} - ${exp.end_date}`,
+    desc: exp.location,
+    descBullets: exp.responsibilities
+  }))
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -153,7 +139,7 @@ const bigProjects = {
   title: "Projects",
   subtitle: "ENGINEERING PROJECTS AND INNOVATIONS",
   projects: portfolioData.projects.map(proj => ({
-    image: projectPlaceholder,
+    image: proj.image_path,
     projectName: proj.name,
     projectDesc: proj.description[0],
     footerLink: []
@@ -169,7 +155,7 @@ const achievementSection = {
   achievementsCards: portfolioData.honours_and_awards.map(award => ({
     title: award.title,
     subtitle: award.description || `Organization: ${award.organization}`,
-    image: certification, // Placeholder
+    image: award.logo_path,
     imageAlt: award.title,
     footerLink: []
   })),
@@ -235,6 +221,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  illustrations,
   blogSection,
   talkSection,
   podcastSection,
