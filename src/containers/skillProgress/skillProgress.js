@@ -1,12 +1,12 @@
 import React from "react";
 import "./Progress.scss";
 import { techStack, illustrations } from "../../portfolio";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
-      <Fade bottom duration={1000} distance="20px">
+      <Fade direction="up" duration={1000} triggerOnce>
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>

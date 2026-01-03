@@ -1,27 +1,27 @@
-import React, {createRef, useContext} from "react";
-import {Fade, Slide} from "react-reveal";
+import React, { createRef, useContext } from "react";
+import { Fade, Slide } from "react-awesome-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function EducationCard({school}) {
+export default function EducationCard({ school }) {
   const imgRef = createRef();
 
-  const GetDescBullets = ({descBullets}) => {
+  const GetDescBullets = ({ descBullets }) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
-            {item}
-          </li>
-        ))
+        <li key={i} className="subTitle">
+          {item}
+        </li>
+      ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
   if (!school.logo)
     console.error(`Image of ${school.name} is missing in education section`);
   return (
     <div>
-      <Fade left duration={1000}>
+      <Fade direction="left" duration={1000} triggerOnce>
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
@@ -48,9 +48,8 @@ export default function EducationCard({school}) {
                 {school.subHeader}
               </h5>
               <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
+                className={`${isDark ? "dark-mode" : ""
+                  } education-text-duration`}
               >
                 {school.duration}
               </p>
@@ -64,7 +63,7 @@ export default function EducationCard({school}) {
           </div>
         </div>
       </Fade>
-      <Slide left duration={2000}>
+      <Slide direction="left" duration={2000} triggerOnce>
         <div className="education-card-border"></div>
       </Slide>
     </div>

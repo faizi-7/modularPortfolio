@@ -12,8 +12,7 @@
     "react-dom": "^18.2.0",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
-    "react-reveal": "^1.2.2",
-    "react-twitter-embed": "3.0.3",
+    "react-awesome-reveal": "^4.2.8",
     "sass": "^1.32.8"
   },
   "scripts": {
