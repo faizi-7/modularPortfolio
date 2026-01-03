@@ -1,0 +1,215 @@
+{
+    "personal_information": {
+        "name": "Sahil Nesar",
+        "nationality": "Indian",
+        "phone": "+91 7542908560",
+        "email": "sahilnesar00@gmail.com",
+        "address": {
+            "village": "Hamzapur",
+            "city": "Sherghati",
+            "district": "Gaya",
+            "postal_code": "824211",
+            "country": "India",
+            "type": "Home"
+        }
+    },
+    "work_experience": [
+        {
+            "role": "Technical Sales Support",
+            "organization": "Siemens Energy",
+            "start_date": "2024-07-15",
+            "end_date": "Present",
+            "location": "Aurangabad, India",
+            "responsibilities": [
+                "Manage and deliver 7+ high-voltage substation tenders per month ensuring technical and commercial compliance",
+                "Prepare proposals valued between USD 2M to USD 35M tailored to diverse client requirements",
+                "Coordinate with cross-functional teams, customers, and vendors to optimize bid quality, pricing strategy, and submission timelines"
+            ]
+        },
+        {
+            "role": "Intern",
+            "organization": "Siemens Energy",
+            "start_date": "2023-07-03",
+            "end_date": "2023-08-04",
+            "location": "Aurangabad, India",
+            "responsibilities": [
+                "Developed HMI for Gas Insulated Switchgear project",
+                "Enhanced skills in UI design and PLC programming",
+                "Worked on GIS systems for power transmission and industrial automation",
+                "Collaborated on innovative solution design for the GIS department"
+            ]
+        },
+        {
+            "role": "Production Engineer Trainee",
+            "organization": "C&S Electric Ltd",
+            "start_date": "2023-06-01",
+            "end_date": "2023-07-01",
+            "location": "Haridwar, India",
+            "responsibilities": [
+                "Managed MCB plant operations",
+                "Worked on spot welding and injection molding",
+                "Supervised production lines and quality control",
+                "Gained expertise in circuit breaker components and manufacturing processes"
+            ]
+        },
+        {
+            "role": "Engineer Trainee Intern",
+            "organization": "Siemens Mobility",
+            "start_date": "2022-06-06",
+            "end_date": "2022-08-08",
+            "location": "Gurugram, India",
+            "responsibilities": [
+                "Worked on Delhi Metro Rail Corporation signaling projects",
+                "Trained on ATP, ATO, ATC, Interlocking, and Train Control Management systems"
+            ]
+        },
+        {
+            "role": "UG Fellow",
+            "organization": "iHub Divyasampark (Chanakya UG Fellowship)",
+            "start_date": "2022-08-16",
+            "end_date": "2023-05-15",
+            "location": "Remote, India",
+            "responsibilities": [
+                "Selected for a 10-month fellowship by Government of India and IIT Roorkee",
+                "Built an IoT-based smart irrigation system",
+                "Handled end-to-end prototype development, demonstrations, and documentation"
+            ]
+        },
+        {
+            "role": "Trainee",
+            "organization": "Siemens Mechatronics Training",
+            "start_date": "2022-04-04",
+            "end_date": "2023-01-06",
+            "location": "Hybrid, India",
+            "responsibilities": [
+                "Completed basic and advanced training in PLC, CNC, and electronics",
+                "Hands-on experience with FESTO, DIGIKIT, and TIA Portal V16",
+                "Worked on pneumatics, electrical schematics, troubleshooting, and 3D printing"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Technology",
+            "field": "Electrical Engineering",
+            "institution": "Jamia Millia Islamia",
+            "start_date": "2020-12-14",
+            "end_date": "2024-06-30",
+            "location": "New Delhi, India",
+            "final_grade": "3.78",
+            "eqf_level": 6
+        }
+    ],
+    "languages": {
+        "mother_tongues": [
+            "Urdu",
+            "Hindi"
+        ],
+        "english_proficiency": {
+            "listening": "C2",
+            "reading": "C2",
+            "spoken_production": "C2",
+            "spoken_interaction": "C2",
+            "writing": "C2"
+        }
+    },
+    "honours_and_awards": [
+        {
+            "title": "Siemens Scholar",
+            "organization": "Siemens",
+            "description": "Selected among 200 students across India in a dual-education model program"
+        },
+        {
+            "title": "Aspire Leaders Program Finalist",
+            "organization": "Aspire Institute / HarvardX",
+            "description": "Finalist in a global academic leadership program with participants from 150+ countries"
+        },
+        {
+            "title": "Schneider Global Student Experience",
+            "organization": "Schneider Electric",
+            "year": 2023
+        },
+        {
+            "title": "Student Energy Summit Selection",
+            "organization": "Student Energy",
+            "description": "Selected for the Student Energy Summit, Abu Dhabi 2023 (unable to attend due to exams)"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Energy Harvesting using Piezoelectric",
+            "description": [
+                "Designed a piezoelectric-based energy harvesting system converting mechanical vibrations into electrical energy",
+                "Built a complete power management circuit with rectifier and buck converter",
+                "Simulated the system using Simulink under various vibration conditions",
+                "Demonstrated feasibility for scalable urban renewable energy solutions",
+                "Proposed future integration with machine learning, smart grids, and wearable electronics"
+            ]
+        },
+        {
+            "name": "PLC Simulated Smart Room Control",
+            "description": [
+                "Designed and simulated a smart room control system using Siemens TIA Portal V16 and S7 PLCSIM",
+                "Implemented ladder logic for automated AC and fan control",
+                "Used TON, TP timers, and SR flip-flop logic",
+                "Performed cost analysis showing significant energy savings",
+                "Focused on energy efficiency and sustainability"
+            ]
+        },
+        {
+            "name": "Developer Portfolio",
+            "description": [
+                "Software Developer Portfolio Template built with React.js that helps you showcase your work and skills as a software developer.",
+                "This repo was created to help people who want to skip the design phase of their portfolio and focus on the code and projects."
+            ]
+        }
+    ],
+    "volunteering": [
+        {
+            "role": "Volunteer",
+            "organization": "HumanHood Organization",
+            "start_date": "2018-07-04",
+            "end_date": "Present"
+        },
+        {
+            "role": "Volunteer",
+            "organization": "BloodConnect Foundation",
+            "start_date": "2022-05-02",
+            "end_date": "2022-10-28"
+        },
+        {
+            "role": "Founder & Volunteer",
+            "organization": "Student-led COVID-19 Relief Initiative",
+            "start_date": "2020-06-08",
+            "end_date": "2021-04-02",
+            "responsibilities": [
+                "Provided verified COVID-19 resource information",
+                "Coordinated with volunteers and digital platforms",
+                "Improved access to critical healthcare resources"
+            ]
+        }
+    ],
+    "skills": {
+        "technical_skills": [
+            "High-Voltage Systems",
+            "PLC Programming (TIA Portal V16)",
+            "HMI Development",
+            "IoT System Architecture",
+            "Electrical Schematics",
+            "Production and Quality Control"
+        ],
+        "software_tools": [
+            "FESTO",
+            "DIGIKIT",
+            "C++",
+            "HTML/CSS",
+            "AutoCAD"
+        ],
+        "soft_skills": [
+            "Technical and Commercial Compliance",
+            "Cross-Functional Team Coordination",
+            "Stakeholder Communication",
+            "Bid and Proposal Management"
+        ]
+    }
+}
